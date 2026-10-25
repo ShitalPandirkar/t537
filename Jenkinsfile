@@ -4,7 +4,7 @@ pipeline{
         REPOSITORY = 'webapp'
         IMAGE_NAME = 'webapp'
         IMAGE_TAG = "${BUILD_NUMBER}"
-        USERNAME = 'spmalve'
+        USERNAME = 'spmalve1'
     }
     stages{
         stage("Checkout"){
